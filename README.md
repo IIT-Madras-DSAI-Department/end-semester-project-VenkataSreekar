@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
 ## 📌 Purpose of this Template
@@ -6,7 +7,7 @@ This repository is the **starter** for your End Semester Project submission in G
 
 > **Scope (as per assignment brief):**
 > Give an introduction to your repository here: Eg. This repository contains a complete implementation for ...
-
+* Implemented ML models for MNIST DataSet.
 ---
 
 **Important Note:** 
@@ -17,14 +18,17 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+* Algorithms.py has codes for function.
+* main.ipynb is implementation file.
+* DataSets has MNIST_train.csv, MNIST_validation.csv
+* Ensemble.py has code to ensemble the models.
 
 ---
 
 ## 📦 Installation & Dependencies
 
 * Mention all the related instructions for installation of related packages for running your code here.
-
+* numpy, pandas, matplotlib, akleran.metrics
 ---
 
 ## ▶️ Running the Code
@@ -34,7 +38,7 @@ All experiments should be runnable from the command line **and** reproducible in
 ### A. Command-line (recommended for grading)
 
 * Mention the instructions to run you .py files.
-  
+* The implemtation is in .ipynb
 ---
 
 ## You can further add your own sections/titles along with corresponding contents here:
@@ -43,7 +47,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Venkata Sreekar, DA24B030>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
